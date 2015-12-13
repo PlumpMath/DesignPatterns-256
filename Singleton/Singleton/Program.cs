@@ -10,6 +10,12 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            SingleObject MyInstance = SingleObject.getInstance();
+
+            MyInstance.showMessage();
+
+            Console.ReadLine();
+            
         }
     }
 }
