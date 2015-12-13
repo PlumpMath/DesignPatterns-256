@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
+    // This is the mediator class
     public class ChatRoom
     {
         public static void showMessage(User user, string message)
