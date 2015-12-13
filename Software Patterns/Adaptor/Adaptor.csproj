@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdvancedMediaPlayer.cs" />
+    <Compile Include="AudioPlayer.cs" />
+    <Compile Include="MediaAdaptor.cs" />
+    <Compile Include="MediaPlayer.cs" />
+    <Compile Include="Mp4Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VlcPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
