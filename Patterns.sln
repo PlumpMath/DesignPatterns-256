@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1B443E59-889A-4452-854A-A402522E1615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{D2053E17-DC34-4271-8913-38E291A979B2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adaptor", "Adaptor\Adaptor.csproj", "{365B8CB5-6929-428E-AF36-3BEBA1E33522}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{11379209-C482-46F5-854B-17F3DC96494D}"
@@ -27,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{AD849225-32C5-4F3C-ACFB-7855D959F3CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{D2053E17-DC34-4271-8913-38E291A979B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +37,6 @@ Global
 		{1B443E59-889A-4452-854A-A402522E1615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B443E59-889A-4452-854A-A402522E1615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B443E59-889A-4452-854A-A402522E1615}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2053E17-DC34-4271-8913-38E291A979B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2053E17-DC34-4271-8913-38E291A979B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2053E17-DC34-4271-8913-38E291A979B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2053E17-DC34-4271-8913-38E291A979B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{365B8CB5-6929-428E-AF36-3BEBA1E33522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{365B8CB5-6929-428E-AF36-3BEBA1E33522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{365B8CB5-6929-428E-AF36-3BEBA1E33522}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +77,10 @@ Global
 		{AD849225-32C5-4F3C-ACFB-7855D959F3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD849225-32C5-4F3C-ACFB-7855D959F3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD849225-32C5-4F3C-ACFB-7855D959F3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2053E17-DC34-4271-8913-38E291A979B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2053E17-DC34-4271-8913-38E291A979B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2053E17-DC34-4271-8913-38E291A979B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2053E17-DC34-4271-8913-38E291A979B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
